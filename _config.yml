@@ -1,5 +1,10 @@
 name: "C-Vision"
 
-url: "http://www.c-vision.com.ua"
+url: "http://c-vision.com.ua"
 
 paginate: 3
+
+social:
+    GitHub: "https://github.com/Kolkir"
+    LinkedIn: "http://ua.linkedin.com/pub/kirill-kolodyazhniy/14/969/79b"
+    Google: "https://www.google.com/+KirillKolodyazhniy"

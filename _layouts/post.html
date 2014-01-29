@@ -4,7 +4,39 @@
     <div class="col-md-9">
         <h1>{{ page.title }}</h1>
         <p class="muted">{{ page.date | date_to_long_string }}</p>
-        {{ content }}     
+        {{ content }}  
+        
+        
+		<a class="btn btn-primary" href="#" 
+		  onclick="
+		    window.open(
+		      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('{{ site.url }}{{ page.url }}'), 
+		      'facebook-share-dialog', 
+		      'width=626,height=436'); 
+		    return false;">
+		  Share on Facebook
+		</a>
+	
+		<a class="btn btn-primary" href="#" 
+		  onclick="
+		    window.open(
+		      'https://plus.google.com/share?url='+encodeURIComponent('{{ site.url }}{{ page.url }}'), 
+		      'facebook-share-dialog', 
+		      'width=626,height=436'); 
+		    return false;">
+		  Share on Google Plus
+		</a>
+
+		<a class="btn btn-primary" href="#" 
+		  onclick="
+		    window.open(
+		      'http://www.linkedin.com/shareArticle?mini=true&url='+encodeURIComponent('{{ site.url }}{{ page.url }}'), 
+		      'facebook-share-dialog', 
+		      'width=626,height=436'); 
+		    return false;">
+		  Share on LinkeIn
+		</a>
+        
     </div>
     <div class="col-md-3">
         {% include sidebar.html %}        

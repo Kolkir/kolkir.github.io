@@ -4,3 +4,20 @@
 <p><a href="{{prov[1]}}" target="_blank">{{prov[0]}}</a></p>
 
 {% endfor %}
+
+<script language="Javascript" type="text/javascript">
+  function my_search_google()
+  {
+    var query = document.getElementById("my-google-search").value;
+    window.open("http://google.com/search?q=" + query
+	+ "%20site:" + "{{site.url}}");
+  }
+</script>
+
+<h4>Search:</h4>
+<form onsubmit="my_search_google()" >
+  <input type="text" id="my-google-search">
+</form>
+
+<h4>Tags:</h4>
+{% include tags.html %}

@@ -3,6 +3,7 @@ name: "C-Vision"
 url: "http://kolkir.github.io"
 
 paginate: 3
+permalink: pretty
 
 social:
     GitHub: "https://github.com/Kolkir"

@@ -1,0 +1,5 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://kolkir.github.io'
+  media: 'images'
+

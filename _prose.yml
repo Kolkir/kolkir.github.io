@@ -8,13 +8,16 @@ prose:
           field:
             element: "text"
             value: "post"
+            label: "layout"
         - name: "tags"
           field:
             element: "text"
             value: "c++"
+            label: "tags"
         - name: "title"
           field:
             element: "text"
             value: "New post"
+            label: "title"
 
 

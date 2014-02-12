@@ -1,5 +1,4 @@
 ---
-published: false
 title: Test prose io
 layout: post
 tags: prose

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Test prose io
 layout: post
 tags: c++

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: C++ serialization with indexing
 layout: post
 tags: c++

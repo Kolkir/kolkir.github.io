@@ -3,7 +3,7 @@ title: Task based C++ parallelism
 layout: default
 ---
 
-[CppTask](http://code.google.com/p/cpptask) is an open source library which represents a higher-level, task-based parallelism that abstracts platform details and threading mechanisms. It is similar to Intel TBB or Microsoft Parallel Pattern Library but much more lightweight and less powerful Implementation.  
+[CppTask](https://github.com/Kolkir/cpptask) is an open source library which represents a higher-level, task-based parallelism that abstracts platform details and threading mechanisms. It is similar to Intel TBB or Microsoft Parallel Pattern Library but much more lightweight and less powerful Implementation.  
 
 It is implemented as headers only library for simple integration to projects.  
 Supported Platforms (was tested on):  
